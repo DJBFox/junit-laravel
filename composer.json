@@ -1,0 +1,20 @@
+{
+    "name": "daijiabao\/junit-laravel",
+    "description": "This is an UnitTest of Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "daijiabao",
+            "email": "daijiabao@quannengzhanggui.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Daijiabao\\JunitLaravel\\": "src"
+        }
+    },
+    "require-dev": {
+        "laravel/telescope": "^2.0"
+    }
+}
