@@ -18,7 +18,7 @@ class JunitServiceProvide extends ServiceProvider
     private function routeConfiguration()
     {
         return [
-            'namespace' => 'ShineYork\JunitLaravel\Http\Controllers',
+            'namespace' => 'Daijiabao\JunitLaravel\Http\Controllers',
             'prefix' => 'junit',
         ];
     }
